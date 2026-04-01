@@ -1,0 +1,5 @@
+{
+    "high_amount_threshold": 10000,
+    "suspicious_locations": ["NG", "RU", "KP"],
+    "rapid_repeat_threshold": 3
+}
