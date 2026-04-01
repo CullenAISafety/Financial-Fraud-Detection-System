@@ -1,6 +1,4 @@
 # Financial-Fraud-Detection-System
-Financial-Fraud-Detection-System
-
 
 Financial Fraud Detection System
 
@@ -34,31 +32,30 @@ Alert Generation – Outputs suspicious transactions to JSON alerts.
 SOC-style Dashboard – Simulated dashboard for monitoring alerts (Markdown or logs).
 
 Financial-Fraud-Detection-System/
-│
-├── data/                     # Sample transactions and fraud patterns
-│   ├── transaction_samples.json
-│   └── fraud_patterns.json
-│
-├── detection_engine/         # Core detection logic
-│   ├── anomaly_detection.py
-│   ├── transaction_monitor.py
-│   └── fraud_scoring.py
-│
-├── analytics/                # Advanced analytics
-│   ├── behavioral_model.py
-│   └── fraud_graph_analysis.py
-│
-├── alerts/                   # Alerts and risk rules
-│   ├── fraud_alerts.json
-│   └── risk_rules.py
-│
-├── dashboard/                # SOC-style monitoring dashboard (Markdown/log)
-│   └── fraud_soc_dashboard.md
-│
-├── investigations/           # Simulated case reports
-│   └── fraud_case_reports.md
-│
-└── main.py                   # Main entry point
+   data/                     # Sample transactions and fraud patterns
+      transaction_samples.json
+      fraud_patterns.json
+
+  detection_engine/         # Core detection logic
+    anomaly_detection.py
+    transaction_monitor.py
+    fraud_scoring.py
+
+  analytics/                # Advanced analytics
+      behavioral_model.py
+      fraud_graph_analysis.py
+
+  alerts/                   # Alerts and risk rules
+    fraud_alerts.json
+    risk_rules.py
+
+  dashboard/                # SOC-style monitoring dashboard (Markdown/log)
+     fraud_soc_dashboard.md
+
+ investigations/           # Simulated case reports
+    fraud_case_reports.md
+
+  main.py                   # Main entry point
 
 
 1. Installation
