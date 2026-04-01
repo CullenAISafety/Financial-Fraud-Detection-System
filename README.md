@@ -94,3 +94,6 @@ scikit-learn for machine learning
 networkx for graph-based fraud ring analysis
 JSON for data and alerts
 Modular architecture inspired by SOC Labs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LISCENES 
+**ALL RIGHTS RESERVED!**
