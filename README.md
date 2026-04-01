@@ -6,15 +6,15 @@ A modular Python-based system that detects suspicious financial transactions by 
 This project leverages techniques from network threat hunting, anomaly detection, and fraud analytics to create an AI-ready financial fraud monitoring platform.
 
 Table of Contents
-Overview
-Features
-Repo Structure
-Installation
-Usage
-Extending the System
-Technologies
-Portfolio / Career Value
-Overview
+1. Overview
+2. Features
+3. Repo Structure
+4. Installation
+5. Usage
+6. Extending the System
+7. Technologies
+8. Portfolio / Career Value
+9. Overview
 
 This system adapts cybersecurity threat hunting methodologies to the financial domain. It identifies anomalies in transactions, flags high-risk behavior, and can be extended with graph analysis and machine learning models to detect complex fraud patterns like mule accounts or coordinated attacks.
 
@@ -68,8 +68,9 @@ Financial-Fraud-Detection-System/
 
   main.py                   # Main entry point
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Installation
+1. Install------ation
   Clone the repo:
 git clone https://github.com/yourusername/Financial-Fraud-Detection-System.git
 cd Financial-Fraud-Detection-System
