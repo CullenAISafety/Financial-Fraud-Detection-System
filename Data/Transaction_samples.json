@@ -1,0 +1,6 @@
+[
+    {"transaction_id": "T001", "account": "A123", "amount": 1200, "timestamp": "2026-03-31T10:00:00", "location": "NY"},
+    {"transaction_id": "T002", "account": "A124", "amount": 50000, "timestamp": "2026-03-31T10:05:00", "location": "CA"},
+    {"transaction_id": "T003", "account": "A123", "amount": 1500, "timestamp": "2026-03-31T10:10:00", "location": "NY"},
+    {"transaction_id": "T004", "account": "A125", "amount": 7000, "timestamp": "2026-03-31T10:15:00", "location": "TX"}
+]
