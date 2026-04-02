@@ -90,8 +90,73 @@ Python 3.x
 Pandas for data manipulation
 scikit-learn for machine learning
 networkx for graph-based fraud ring analysis
+
+
+
+
+
 JSON for data and alerts
 Modular architecture inspired by SOC Labs
+
+**Run In Collab:
+**
+1. Install:
+!pip install pandas scikit-learn matplotlib seaborn
+
+2. from google.colab import files
+uploaded = files.upload()
+
+3. import pandas as pd
+
+df = pd.read_csv("creditcard.csv")
+df.head()
+
+4. Download Credit Card Fraud Detection from kaggle
+5. Load Dataset
+   import pandas as pd
+
+df = pd.read_csv("creditcard.csv")
+df.head()
+6. Inspect Data:
+df["Class"].value_counts()
+7. Prepare Data:
+X = df.drop("Class", axis=1)
+y = df["Class"]
+8.Split vs Testing
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+9. Train 
+from sklearn.ensemble import RandomForestClassifier
+
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+
+10. Evaluate Performance
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, predictions))
+
+11. Visualize Fraud Detection Results
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_test, predictions)
+
+sns.heatmap(cm, annot=True, fmt="d")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.show()
+
+12. Simulate New Transactions
+    new_tx = X_test.iloc[0].values.reshape(1, -1)
+model.predict(new_tx)
+
+14. Stress Test System
+    model.predict(X_test[:1000])
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 LISCENES 
 **ALL RIGHTS RESERVED!**
