@@ -117,17 +117,21 @@ df.head()
 
 df = pd.read_csv("creditcard.csv")
 df.head()
+
 6. Inspect Data:
 df["Class"].value_counts()
+
 7. Prepare Data:
 X = df.drop("Class", axis=1)
 y = df["Class"]
+
 8.Split vs Testing
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
+
 9. Train 
 from sklearn.ensemble import RandomForestClassifier
 
